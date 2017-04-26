@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bluebird-retry/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bluebird-retry/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bluebird-retry/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bluebird-retry/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bluebird-retry/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bluebird-retry/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bluebird-retry/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bluebird-retry/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bluebird-retry/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bluebird-retry/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bluebird-retry/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bluebird-retry/build/coverage.html/index.html)
 
@@ -35,32 +35,15 @@
 ```json
 
 {
-    "name": "bluebird-retry",
-    "version": "0.10.1",
-    "description": "utility for retrying a bluebird promise until it succeeds",
-    "main": "index.js",
-    "scripts": {
-        "test": "gulp test"
+    "author": {
+        "name": "Michael Demmer"
     },
     "browser": "./browser/bluebird-retry.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/demmer/bluebird-retry.git"
-    },
-    "keywords": [
-        "bluebird",
-        "promise",
-        "retry"
-    ],
-    "author": "Michael Demmer <demmer@jut.io>",
-    "license": "MIT",
     "bugs": {
         "url": "https://github.com/demmer/bluebird-retry/issues"
     },
-    "homepage": "https://github.com/demmer/bluebird-retry",
-    "peerDependencies": {
-        "bluebird": ">=2.3.10"
-    },
+    "dependencies": {},
+    "description": "utility for retrying a bluebird promise until it succeeds",
     "devDependencies": {
         "bluebird": "^2.3.10",
         "browserify": "^13.0.0",
@@ -75,11 +58,44 @@
         "vinyl-buffer": "^1.0.0",
         "vinyl-source-stream": "^1.1.0"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "cdf76b01d4a6dd4fec4e2c84360a8a09007f67da",
+        "tarball": "https://registry.npmjs.org/bluebird-retry/-/bluebird-retry-0.10.1.tgz"
+    },
     "files": [
         "browser/*.js",
         "index.js",
         "lib"
-    ]
+    ],
+    "gitHead": "e9f6335b946b14c3da22b651a302390aa5dd92ba",
+    "homepage": "https://github.com/demmer/bluebird-retry",
+    "keywords": [
+        "bluebird",
+        "promise",
+        "retry"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "demmer"
+        }
+    ],
+    "name": "bluebird-retry",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "bluebird": ">=2.3.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/demmer/bluebird-retry.git"
+    },
+    "scripts": {
+        "test": "gulp test"
+    },
+    "version": "0.10.1",
+    "bin": {}
 }
 ```
 
